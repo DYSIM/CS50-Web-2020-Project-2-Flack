@@ -1,0 +1,84 @@
+.head {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: deepskyblue;
+  color: white;
+  font-weight: bold; }
+
+html, body {
+  height: 100vh; }
+
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden; }
+
+.username {
+  margin: 1em, 1em, 0, 1em;
+  color: #218fb4;
+  width: auto;
+  border-bottom: 1px solid deepskyblue; }
+
+.application {
+  display: flex;
+  justify-content: center;
+  height: 100%; }
+
+.sidebar {
+  padding: 0px;
+  border-style: solid;
+  border-color: deepskyblue;
+  width: 5em;
+  height: 500px;
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 10px;
+  overflow: auto;
+  min-width: 5em; }
+
+.messages {
+  background-color: #e6f9fe;
+  width: 100%;
+  height: 85.6%;
+  overflow: auto; }
+
+#message {
+  flex: 1;
+  min-width: 100px; }
+
+.channels__button {
+  width: 100%;
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer; }
+  .channels__button:focus, .channels__button:hover, .channels__button:active {
+    outline: none; }
+
+.userTypeArea {
+  width: 100%;
+  height: 10%; }
+
+.chatscreen {
+  padding: 0px;
+  border-style: solid;
+  border-left: 0px;
+  border-color: deepskyblue;
+  width: 20em;
+  height: 500px;
+  color: black;
+  font-size: 1em;
+  vertical-align: bottom;
+  margin-top: 10px;
+  overflow: auto;
+  flex: 1; }
+
+/*# sourceMappingURL=style.css.map */
